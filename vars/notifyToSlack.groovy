@@ -11,7 +11,7 @@ def call(Map config) {
     ]
 
     if (!chanel) {
-        error("Missing argument: chanel")
+        error("notifyToSlack: Missing parameter - chanel")
     }
 
     if (!disabled) {
