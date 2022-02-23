@@ -27,3 +27,8 @@ def generate_slack_message() {
 
     return message_rows.join("\n")
 }
+
+
+def info(message) {
+    echo "INFO: ${message}"
+}
