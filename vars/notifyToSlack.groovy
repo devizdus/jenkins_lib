@@ -1,7 +1,7 @@
 def call(Map config) {
 
     String chanel = config.get('chanel', null)
-    Boolean disabled = config.get('disabled', false).toBoolean()
+    Boolean disabled = config.get('disabled', false)
     String message = config.get('message', generate_message())
 
     RESULT_COLOR_MAP = [
